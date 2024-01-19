@@ -1,0 +1,242 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ .all_div{
+ 
+ }
+ /* استایل هدر */
+ header {
+    width: 100%;
+        /* background-color: #333; */
+    padding: 30px;
+    /* color: rgb(0, 255, 225); */
+    color: #000;
+    
+    text-align: center;
+    /* margin-right: 5px; */
+    /* margin-left: 5px; */
+    
+  
+}
+.text_foter{
+    color: rgb(0, 255, 136);
+}
+
+/* استایل لوگو */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.brand{
+
+    width: 120px;
+    height: 85px;
+    float: right;
+    margin-top: -80px;
+    margin-right: 155px;
+  
+    
+    border: 1px solid maroon;
+    background-image: url(/image/mrr\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    
+}
+ .opacit{
+    color: #333;
+    font-size: 18px;
+} 
+
+/* استایل منوی ناوبری */
+nav {
+    margin-top: 20px;
+    text-align: center; 
+   
+   
+}
+
+nav ul {
+     list-style-type:none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.photo{
+
+    width: 1520px;
+     height: 700px; 
+      background-image: url(./image/c0b9e36ba5b46d0ffafcafddce4bdc4cdd2d8de8_1702106562.jpg); 
+     background-size: cover;
+    /* border: 1px solid red;  */
+     /* padding-left: 20px; */
+}
+ 
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(170,15,115);
+    background: radial-gradient(circle, rgba(170,15,115,1) 0%, rgba(197,185,187,1) 100%);
+    /* padding: 20px;
+    background-image: url(./image/مجموعه-16-والپیپر-سریال-Money-Heist-و-La-Casa-De-Papel-8.jpg); 
+} */
+}
+
+.product-box {
+    text-align: center;
+    width: 300px;
+    margin: 40px;
+    /* border: 2px solid blueviolet; */
+    border-radius: 10px;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgba(25, 160, 25, 0.529);
+}
+
+.product-box img {
+    width: 80%;
+    height: 60%;
+    margin-top: 8px;
+   
+}
+
+.product-box h3 {
+    margin-top: 8px;
+    
+}
+
+.product-box p {
+    margin-top: 5px;
+}
+
+.product-box button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+  margin-top: 30px;
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.opacit{
+  
+  
+    opacity: 0.7;
+    transition: 5s linear 0.5;
+    
+}
+.opacit:hover{
+   
+    opacity: 1;
+    
+}
+.didcount{
+    width: 53px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(203, 21, 21);
+  position: relative;
+  bottom: 40px;
+  right: 20px;
+    
+}
+.fot{
+
+    width: 100%;
+    height: 270px;
+    border: 2px solid brown;
+  
+}
+.adres{
+
+    text-align: center;
+    padding-top: 75px;
+    font-size: 15px;
+    font-family: tahoma;
+}
+.distance{
+
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.li{
+    color: #1a1919;
+    display: block;
+}
+footer {
+    /* background-color: #ffeaea; */
+    background-color: rgba(68, 27, 232, 0.879);
+    color: #1a1919;
+    padding: 20px;  
+    text-align: center;
+    position: relative;
+    border-top: 1px solid black;
+  }
+
+  .logo {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    transition: filter 0.3s;
+  }
+  .logos{
+    display:inline-block;
+   position: relative;
+   left: 400px;
+ 
+  }
+  .logos img{
+    width: 50px; /* تغییر اندازه لوگوها به میزان دلخواه */
+    height: 50px;
+  }
+    
+  
+
+  .logo:hover {
+    filter: hue-rotate(90deg);
+  }
+
+  .logo img {
+    width: 50px; /* تغییر اندازه لوگوها به میزان دلخواه */
+    height: 50px;
+    border-radius: 20%;
+    
+  }
+  .imge_insta:hover{
+    height: 60px;
+    width: 60px;
+  }
+  .ser{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    text-align: right;
+    
+    width: 170px;
+    box-sizing: border-box;
+  }
+.li1{
+    font-size: 22px;
+    color: #000;
+    opacity: 0.77;
+    transition: 5s linear 0.5;
+    
+}
+.li1:hover{
+    opacity: 1;
+}
